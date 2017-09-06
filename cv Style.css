@@ -1,0 +1,158 @@
+.bckGrdColor
+{
+ background-color: whitesmoke
+}
+
+    body
+    {
+     margin: 1px;
+    }
+
+    p.myName
+    {
+     color: black;
+     font-family: monospace;
+     overflow: hidden;
+     font-size: 100%;
+     text-align: center;
+    }
+
+    p.myMsg
+    {
+     color: black;
+     font-family: monospace;
+     font-style: oblique;
+     font-size: 100%;
+     text-align: center;
+    }
+
+    .myImg
+    {
+     width: 100px; 
+     height: 100px;
+     display: block;
+     align-self: center;
+     margin: auto;
+    }
+
+    div.myProfile
+    {
+     padding: 1px;
+     border-bottom: 2px solid chartreuse;
+     text-align: center;
+    }
+    
+    .myProfile
+    {
+     padding: 25px 35px;
+     border-bottom: 2px solid #cf8a05;
+     background: white;
+    }
+    
+    #contactDetails ul
+    {
+     list-style-type: none;
+     margin-left: 10%;
+     color: #444;
+     font-size: 0.7em;
+    }
+    
+    #contactDetails ul li
+    {
+     margin-bottom: 3px;
+     color: #444;
+    }
+    
+    #contactDetails ul li a, a[href^=tel]
+    {
+     color: #444; 
+     text-decoration: none;
+    }
+    
+    #contactDetails ul li a:hover
+    { 
+     color: #2204FE;
+    }
+
+    p.yes
+    {
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-fill-color: gray;
+     font-weight: lighter;
+     font-style: italic;
+    }
+
+    ul#hello
+    {
+     text-shadow: 0.1em 0.1em 0.15em paleturquoise;
+     text-decoration: underline;
+     border-style: inset;
+     border-top-color: blue;
+     border-right-color: mediumspringgreen;
+     border-bottom-color: purple;
+     border-left-color: yellow;
+     color: red;
+    }
+
+    ul.hi
+    {
+     text-decoration: none;
+     border-style: outset;
+     border-right-color: mediumspringgreen;
+     border-bottom-color: purple;
+     border-radius: 100px;
+     border-radius: 100px;
+     -webkit-border-radius: 100px;
+    }
+
+    ul.hey
+    {
+     white-space: normal;
+     border-style: ridge;
+     border-top-color: blue;
+     border-left-color: yellow;
+     border-radius: 10px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+    }        
+
+    h3.hello
+    {
+     color: green;
+    }
+
+    h3.hey
+    {
+     color: purple;
+    }
+
+    h3.hi
+    {
+     color: #6F8B46;
+    }
+
+    li
+    {
+     padding: 2px 0px 2px 0px;
+     height: auto;
+    }
+
+    ul
+    {
+     width: 75%;
+     box-sizing: border-box !important;
+     list-style-type: circle;
+     list-style-position: inside;
+     white-space: normal;
+     background-color: white;
+     text-decoration: none;
+     color: royalblue;
+     margin-left: 20%;
+     margin-right: 20%;
+    }
+
+    ul.hi, hello
+    {
+     text-indent: auto;
+     padding: 2px 36px
+   }
